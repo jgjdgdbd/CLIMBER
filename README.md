@@ -21,10 +21,10 @@ CLIMBER Dependencies, Running, and Result
 * Then, copy the python files(.py) to the trace directory(CLIMBER/trace/\*/).
 * Run CLIMBER codes by:
 ```javascript
-[root @node1 CLIMBER/trace/*/]# python typeX_*_climber.py arg1 arg2
+[root @node1 CLIMBER/trace/*/]# python typeX_*_climber.py arg1 arg2 arg3 arg4
 ```
-* X = 0 is non-attack; X = 1 is Inconsistent Write Attack.
-* Arg1 and arg2 are used to enable our climber and WPRM schemes.
+* X = 0 is non-attack (needs memory trace); X = 1 is Inconsistent Write Attack.
+* Arg1 and arg2 are used to enable our CLIMBER and WPRM schemes. Arg1 = 0 means running without CLIMBER, arg1 = 1 means running CLIMBER with the baseline systems and arg1 = 2 means running CLIMBER only. Arg2 = 0 means running without WPRM and Arg2 = 1 means running with WPRM. Arg3 means the region size of CLIMBER (10-19) and arg4 means the climber-threshold of CLIMBER.
 
 **3.Result**  
 &#160; &#160; &#160; &#160; The endurance result are recorded by \*mm_climber.py in \*.dat files.
