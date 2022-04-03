@@ -27,6 +27,6 @@ CLIMBER Dependencies, Running, and Result
 * Arg1 and arg2 are used to enable our CLIMBER and WPRM schemes. Arg1 = 0 means running without CLIMBER, arg1 = 1 means running CLIMBER with the baseline systems and arg1 = 2 means running CLIMBER only. Arg2 = 0 means running without WPRM and Arg2 = 1 means running with WPRM. Arg3 means the region size of CLIMBER (10-19) and arg4 means the climber-threshold of CLIMBER.
 
 **3.Result**  
-&#160; &#160; &#160; &#160; The endurance result are recorded by \*mm_climber.py in \*.dat files.
+&#160; &#160; &#160; &#160; The endurance result is recorded by \*mm_climber.py in \*.dat files.
 
 
